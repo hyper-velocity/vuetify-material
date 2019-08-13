@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import 'styles/index.scss'
+
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 import 'chartist/dist/chartist.min.css'
+
+import 'styles/index.scss'
 import './components'
 
-export let defaultTheme = {
+export let theme = {
   primary: '#4caf50',
   secondary: '#4caf50',
   tertiary: '#495057',
@@ -17,10 +19,10 @@ export let defaultTheme = {
   warning: '#ffa21a'
 }
 
-export const config = (theme = defaultTheme) => {
+export const config = (vuetifyTheme = theme) => {
   Vue.use(Vuetify, {
     iconfont: 'mdi',
-    theme
+    theme: vuetifyTheme
   })
 
   Vue.use(require('vue-chartist'))
@@ -28,5 +30,5 @@ export const config = (theme = defaultTheme) => {
 
 export default {
   config,
-  defaultTheme
+  theme
 }
