@@ -23,15 +23,13 @@
   },
   "homepage": "https://github.com/hyper-velocity/vuetify-material#readme",
   "dependencies": {
+    "@mdi/font": "^3.9.97",
     "chartist": "^0.11.3",
+    "material-design-icons-iconfont": "^5.0.1",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.2.0",
     "vue": "^2.6.10",
     "vue-chartist": "^2.2.1",
     "vuetify": "^2.0.5"
-  },
-  "devDependencies": {
-    "@mdi/font": "^3.9.97",
-    "material-design-icons-iconfont": "^5.0.1"
   }
 }
