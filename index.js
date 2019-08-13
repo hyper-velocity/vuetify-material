@@ -5,7 +5,7 @@ import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 import 'chartist/dist/chartist.min.css'
 
-import 'styles/index.scss'
+import './styles/index.scss'
 import './components'
 
 export let theme = {
