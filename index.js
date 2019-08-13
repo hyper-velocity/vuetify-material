@@ -19,10 +19,10 @@ export let theme = {
   warning: '#ffa21a'
 }
 
-export const config = (vuetifyTheme = theme) => {
+export const config = () => {
   Vue.use(Vuetify, {
     iconfont: 'mdi',
-    theme: vuetifyTheme
+    theme
   })
 
   Vue.use(require('vue-chartist'))
