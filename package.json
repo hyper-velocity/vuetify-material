@@ -1,0 +1,37 @@
+{
+  "name": "vuetify-material",
+  "version": "1.0.0",
+  "description": "Modularized Vueitfy-Material Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyper-velocity/vuetify-material.git"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "material",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyper-velocity/vuetify-material/issues"
+  },
+  "homepage": "https://github.com/hyper-velocity/vuetify-material#readme",
+  "dependencies": {
+    "chartist": "^0.11.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "vue": "^2.6.10",
+    "vue-chartist": "^2.2.1",
+    "vuetify": "^2.0.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^3.9.97",
+    "material-design-icons-iconfont": "^5.0.1"
+  }
+}
