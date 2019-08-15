@@ -24,7 +24,7 @@ export const theme = {
 Vue.use(Vuetify)
 Vue.use(require('vue-chartist'))
 
-const config = () => {
+export const config = () => {
   return new Vuetify({
     icons: {
       iconfont: 'mdi'
