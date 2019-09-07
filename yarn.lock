@@ -1267,6 +1267,11 @@ vue-chartist@^2.2.1:
   dependencies:
     chartist "^0.11.0"
 
+vue-mutation-observer@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-mutation-observer/-/vue-mutation-observer-0.1.2.tgz#eefda9c0fc5034c576b0137cf22764b85450585e"
+  integrity sha512-ibEnresRwco5VMU4+YvXgERK51LVKBh8TBwWa8PGbAcifE4MCOvDs9DQtzBBWSM5SZNCbPZy5FVbuddNrHxNjA==
+
 vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
