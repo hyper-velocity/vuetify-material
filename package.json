@@ -30,7 +30,6 @@
     "sass-loader": "^7.2.0",
     "vue": "^2.6.10",
     "vue-chartist": "^2.2.1",
-    "vue-mutation-observer": "^0.1.2",
     "vuetify": "^2.0.5"
   }
 }
