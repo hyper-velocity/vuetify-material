@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 
-import './styles/index.scss'
 import './components'
 
 import 'vuetify/dist/vuetify.min.css'
